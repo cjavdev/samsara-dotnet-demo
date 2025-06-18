@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Samsara.Net" Version="0.0.92" />
+    <PackageReference Include="Samsara.Net" Version="0.1.2" />
   </ItemGroup>
 
 </Project>
