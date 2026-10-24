@@ -7,7 +7,7 @@ var key = Environment.GetEnvironmentVariable("SAMSARA_KEY");
 var client = new SamsaraClient(token: key);
 
 // Works
-var addressPage = await client.Addresses.ListAsync(new AddressesListRequest
+var addressPage = await client.Addresses.ListAsync(new ListAddressesRequest
 {
   Limit = 50
 });
